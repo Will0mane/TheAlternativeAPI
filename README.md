@@ -12,3 +12,7 @@ The data part on the builder is still in development.
 Please note that this is an ALPHA release. There may be bugs or malfunctionalities.
 
 The Documentation will come along with the next release.
+
+[![](https://jitpack.io/v/Will0mane/TheAlternativeAPI.svg)](https://jitpack.io/#Will0mane/TheAlternativeAPI)
+
+
