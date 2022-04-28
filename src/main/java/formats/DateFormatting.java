@@ -1,6 +1,6 @@
 package formats;
 
-import builders.*;
+import builders.stacks.*;
 import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeModifier;

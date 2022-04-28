@@ -1,9 +1,10 @@
-package builders;
+package builders.stacks;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import utils.WilloUtils;
 
 import java.util.List;
 
@@ -68,7 +69,13 @@ public class StackBuilder {
     }
 
     public ItemStack build(){
-        ItemStack stack = new ItemStack(m);
+        ItemStack stack;
+        if(getData().contains("head:")){
+            String head = getData().replace("head:", "");
+            stack = WilloUtils.getCustomSkull(head);
+        }else{
+            stack = new ItemStack(m);
+        }
         ItemMeta meta = stack.getItemMeta();
         meta.setDisplayName(getName());
         meta.setLore(getLore());

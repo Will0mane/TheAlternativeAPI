@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="TheAlternativeAPI:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/TheAlternativeAPI_jar</output-path>
+    <output-path>$MAVEN_REPOSITORY$/org/example/TheAlternativeAPI</output-path>
     <root id="archive" name="TheAlternativeAPI.jar">
       <element id="module-output" name="TheAlternativeAPI" />
     </root>

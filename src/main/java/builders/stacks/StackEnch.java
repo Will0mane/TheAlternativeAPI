@@ -1,4 +1,4 @@
-package builders;
+package builders.stacks;
 
 import org.bukkit.enchantments.Enchantment;
 
